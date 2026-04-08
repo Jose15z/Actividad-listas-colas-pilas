@@ -28,7 +28,7 @@ public class ListaCircularDoblementeEnlazada {
         nuevo.siguiente = cabeza;
         cabeza.anterior = nuevo;
     }
-
+    
     public void mostrarAdelante() {
         if (estaVacia()) {
             System.out.println("La lista está vacía.");
